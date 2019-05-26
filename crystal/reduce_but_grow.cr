@@ -1,4 +1,5 @@
 # Beginner - Reduce but Grow
+# https://www.codewars.com/kata/beginner-reduce-but-grow/crystal
 
 # Given a non-empty array of integers, return the result
 # of multiplying the values together in order.
