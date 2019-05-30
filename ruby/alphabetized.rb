@@ -18,4 +18,8 @@ def alphabetized(str)
   str.scan(/[a-z]/i).sort_by { |i| i.upcase && i.downcase }.join
 end
 
+def alphabetized(str)
+  str.scan(/[a-z]/i).sort(&:casecmp).join
+end
+
 alphabetized('The Holy Bible')
